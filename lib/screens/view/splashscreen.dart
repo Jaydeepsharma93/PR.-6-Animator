@@ -11,9 +11,15 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
-    Future.delayed(Duration(seconds: 3),() {
+    Future.delayed(Duration(seconds: 10),() {
       Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context) => HomeScreen(),));
     },);
-    return Scaffold();
+    return Scaffold(
+      body: Container(
+        decoration: BoxDecoration(image: DecorationImage(
+          image: AssetImage('assets/img/gif.gif'),fit: BoxFit.fill
+        )),
+      ),
+    );
   }
 }
