@@ -85,20 +85,23 @@ class _DetailScreenState extends State<DetailScreen>
                         color: Colors.white,
                         size: 32,
                       )),
-                  AnimatedBuilder(
-                    animation: _animationController!,
-                    builder: (context, child) => Transform.rotate(
-                      angle: _animationController!.value * 2 * pi,
-                      // Convert animation value to radians
-                      child: Container(
-                        height: 320,
-                        width: 320,
-                        decoration: BoxDecoration(
-                            image: DecorationImage(
-                          image: AssetImage(jsonProvider
-                              .objectList[jsonProvider.Index].img
-                              .toString()),
-                        )),
+                  Hero(
+                    tag: '${jsonProvider.Index}',
+                    child: AnimatedBuilder(
+                      animation: _animationController!,
+                      builder: (context, child) => Transform.rotate(
+                        angle: _animationController!.value * 2 * pi,
+                        // Convert animation value to radians
+                        child: Container(
+                          height: 320,
+                          width: 320,
+                          decoration: BoxDecoration(
+                              image: DecorationImage(
+                            image: AssetImage(jsonProvider
+                                .objectList[jsonProvider.Index].img
+                                .toString()),
+                          )),
+                        ),
                       ),
                     ),
                   ),
