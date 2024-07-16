@@ -1,16 +1,12 @@
-# solar_system
+# PR.6-Animator
 
-A new Flutter project.
+<img src="https://github.com/user-attachments/assets/64327d05-41c1-4bc7-abc5-7d88c281875e" width = 32%>
+<img src="https://github.com/user-attachments/assets/f723a262-5eab-4d64-8651-1732109ff7b5" width = 32%>
+<img src="https://github.com/user-attachments/assets/194e7881-8a28-4129-86a4-c06415d3a083" width = 32%>
+<img src="https://github.com/user-attachments/assets/33bfa71d-5a6c-4935-a39b-5fb8add9fa4c" width = 32%>
+<img src="https://github.com/user-attachments/assets/07ae6ea6-4579-4334-a08f-0169dba2d8f5" width = 32%>
+<img src="https://github.com/user-attachments/assets/c80cce57-5001-4494-b8fa-6fa1debd666f" width = 32%>
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
